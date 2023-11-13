@@ -26,7 +26,6 @@ body {
   text-align: justify;
   background-color: #272830;
   width: 30%;
-  height: 100%;
   border-radius: 20px;
   border-width: 10px;
   border-style: inherit;
@@ -44,8 +43,9 @@ body {
 }
 
 .middlephoto {
-  max-width: 50%;
-  max-height: 50%;
+  width: 50%;
+  height: auto;
+  max-width: 200px;
   border-radius: 15px;
   border-width: 2px;
   border-style: solid;
@@ -77,35 +77,52 @@ body {
   border-radius: 99px;
   background-color: white;
   display: inline-block;
-  width: 25%;
+  width: 20%;
+  height: 40%;
 }
 
 .sportbox {
   display: flex;
   justify-content: space-around;
   flex-direction: row;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-items: center;
 }
 
 .sportbox2 {
+  font-size: 12px;
+  padding: 5px;
   display: flex;
   flex-direction: row;
+  width: 25%;
+  align-items: center;
+  justify-items: center;
 }
 
 .iconsocials {
-  width: 50%;
+  width: 100%;
 }
 
 .gridsocial {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
+  align-items: center;
+  justify-items: center;
+  width: 100%;
+  height: 100%;
 }
 
 .gridelement {
+  width: 85%;
 }
 
 .second {
   order: 1;
+  display: flex;
+  flex-direction: column;
 }
 
 .third {
